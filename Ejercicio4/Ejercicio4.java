@@ -106,7 +106,7 @@ public class Ejercicio4 extends JFrame {
 		multi = new JButton("X");
 		multi.setBounds(311, 92, 75, 27);
 		contentPane.add(multi);
-		multi.addActionListener(new ActionListener() { // Cuando clique mostrara la multiplicación
+		multi.addActionListener(new ActionListener() { // Cuando clique mostrara la multiplicaciÃ³n
 			public void actionPerformed(ActionEvent e) {
 				String oper1 = operando1.getText();
 				String oper2 = operando2.getText();
@@ -137,7 +137,7 @@ public class Ejercicio4 extends JFrame {
 		salir = new JButton("Salir");
 		salir.setBounds(311, 186, 75, 27);
 		contentPane.add(salir);
-		salir.addActionListener(new ActionListener() { // Cuando clique mostrara el sistema seleccionado
+		salir.addActionListener(new ActionListener() { // Cuando clique saldra
 			public void actionPerformed(ActionEvent e) {
 				System.exit(0);
 			}
@@ -146,7 +146,7 @@ public class Ejercicio4 extends JFrame {
 		about = new JButton("About");
 		about.setBounds(311, 152, 75, 32);
 		contentPane.add(about);
-		about.addActionListener(new ActionListener() { // Cuando clique mostrara el sistema seleccionado
+		about.addActionListener(new ActionListener() { // Cuando clique mostrara la informacion
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Mini calculadora :)");
 			}
